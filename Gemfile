@@ -30,3 +30,4 @@ gem 'haml', '~> 4.0', '>= 4.0.7'
 gem 'simple_form', '~> 3.3', '>= 3.3.1'
 gem 'devise', '~> 4.2'
 gem 'rails_12factor', group: :production
+gem 'bcrypt-ruby'
