@@ -1,1 +1,31 @@
-%h1 This is the welcome placeholder
+#banner
+	.banner_content
+		%h1 Notely
+		%p The Best Online Notebook. Free For A Limited Time.
+		%button= link_to "Sign Up", new_user_registration_path
+#testimonial
+	.wrapper
+		%p.quote "The internets greatest creation. Period. (Extra American Because Created On Election Day!)"
+		%p.name - Chase Bristow
+#callouts
+	.callout_inner
+		.wrapper
+			.callout
+				%h2 Notely
+				%p Never lose the notes again. It's all stored on the site! This way you will never lose them!
+
+			.callout
+				%h2 Mobile
+				%p Have a note on the go? No problem, we support mobile noting! Easy, simple, and clean notes so you can stay organized at all times.
+
+			.callout
+				%h2 Lightning Quick
+				%p Don't wait around, our lightning fast load times, quick response rate, and clean interface will help you take notes super fast on our site, that way you don't have to wait on anything!
+#bottom_cta
+	.wrapper
+		%h2 You Better Sign Up!
+		%p If you don’t... I will find you!
+		%button= link_to "Click Me!!!", new_user_registration_path
+
+%footer
+	%p &copy; Chase Bristow
